@@ -5,8 +5,10 @@ Description: Add product private info
 Version: 0.1
 Author: Joost Abrahams
 Author URI: https://mantablog.nl
+GitHub Plugin URI: https://github.com/joost-abrahams/yosta-woo-product-private-info
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Requires Plugins:  buddypress
 */
 
 // Exit if accessed directly
