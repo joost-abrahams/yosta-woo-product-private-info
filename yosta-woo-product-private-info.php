@@ -9,6 +9,9 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+// Exit if accessed directly
+defined( 'ABSPATH' ) or die;
+
 add_action( 'woocommerce_product_options_general_product_data', 'action_woocommerce_product_options_general_product_data', 10, 0 );
 add_action( 'woocommerce_admin_process_product_object', 'action_woocommerce_admin_process_product_object', 10, 1 );
   
