@@ -5,8 +5,8 @@ Description: Add product private info
 Version: 0.1
 Author: Joost Abrahams
 Author URI: https://mantablog.nl
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 add_action( 'woocommerce_product_options_general_product_data', 'action_woocommerce_product_options_general_product_data', 10, 0 );
